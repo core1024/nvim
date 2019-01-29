@@ -1,0 +1,42 @@
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = ./bundle/YouCompleteMe
+[submodule "vim-plugin-autosess"]
+	path = vim-plugin-autosess
+	url = ./bundle/vim-plugin-autosess
+[submodule "ack.vim"]
+	path = ack.vim
+	url = ./bundle/ack.vim
+[submodule "tagbar"]
+	path = tagbar
+	url = ./bundle/tagbar/
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = ./bundle/fzf.vim/
+[submodule "promptline.vim"]
+	path = promptline.vim
+	url = ./bundle/promptline.vim
+[submodule "vim-airline"]
+	path = vim-airline
+	url = ./bundle/vim-airline
+[submodule "vim-airline-themes"]
+	path = vim-airline-themes
+	url = ./bundle/vim-airline-themes/
+[submodule "vim-bookmarks"]
+	path = vim-bookmarks
+	url = ./bundle/vim-bookmarks/
+[submodule "vim-fugitive"]
+	path = vim-fugitive
+	url = ./bundle/vim-fugitive/
+[submodule "vim-pug"]
+	path = vim-pug
+	url = ./bundle/vim-pug/
+[submodule "vim-sleuth"]
+	path = vim-sleuth
+	url = ./bundle/vim-sleuth/
+[submodule "vim-startify"]
+	path = vim-startify
+	url = ./bundle/vim-startify/
+[submodule "vim-stylus"]
+	path = vim-stylus
+	url = ./bundle/vim-stylus/

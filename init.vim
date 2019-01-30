@@ -46,6 +46,8 @@ nmap <Leader>f :Files<CR>
 nmap <Leader>F :GFiles<CR>
 nmap <Leader><Tab> :Buffers<CR>
 nmap <Leader>t :TagbarToggle<CR>
+nmap <silent> <Tab> :bnext<CR>
+nmap <silent> <S-Tab> :bprevious<CR>
 
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
@@ -53,8 +55,25 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 
+augroup vimrc     " Source vim configuration upon save
+	autocmd! BufWritePost $MYVIMRC source % | echom "Reloaded " . $MYVIMRC | redraw
+	autocmd! BufWritePost $MYGVIMRC if has('gui_running') | so % | echom "Reloaded " . $MYGVIMRC | endif | redraw
+augroup END
+
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
-nnoremap <C-L> :let @/=""<CR>
+nmap <C-L> :let @/=""<CR>
+
+" Paste, Cut, Copy into system clipboard
+map! <S-Insert> <C-R>+
+nmap <S-Insert> "+P
+vmap <S-Del> "+d
+vmap <C-Insert> "+y
+
+if has("gui_running")
+	GuiFont Hack
+	GuiTabline 0
+endif
+

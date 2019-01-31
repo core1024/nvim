@@ -72,8 +72,3 @@ nmap <S-Insert> "+P
 vmap <S-Del> "+d
 vmap <C-Insert> "+y
 
-if has("gui_running")
-	GuiFont Hack
-	GuiTabline 0
-endif
-

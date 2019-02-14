@@ -9,8 +9,10 @@ execute pathogen#infect()
 
 " Airline settings
 let g:airline_theme='aurora'
-let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 nmap <leader>1 <Plug>AirlineSelectTab1
 nmap <leader>2 <Plug>AirlineSelectTab2
@@ -41,6 +43,7 @@ set undofile
 set undodir=~/.vim/undodir
 set wildmenu
 set path+=**
+hi MatchParen ctermfg=208 ctermbg=bg
 
 nmap <Leader>f :Files<CR>
 nmap <Leader>F :GFiles<CR>

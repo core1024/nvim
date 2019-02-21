@@ -26,7 +26,7 @@ nmap <leader>9 <Plug>AirlineSelectTab9
 
 filetype on
 syntax on
-colorscheme material-monokai
+colorscheme monokai
 set mouse=n
 set tabstop=4
 set shiftwidth=4
@@ -43,7 +43,7 @@ set undofile
 set undodir=~/.vim/undodir
 set wildmenu
 set path+=**
-hi MatchParen ctermfg=208 ctermbg=bg
+"hi MatchParen ctermfg=208 ctermbg=bg
 
 nmap <Leader>f :Files<CR>
 nmap <Leader>F :GFiles<CR>
@@ -74,4 +74,13 @@ map! <S-Insert> <C-R>+
 nmap <S-Insert> "+P
 vmap <S-Del> "+d
 vmap <C-Insert> "+y
+
+function! s:DiffWithSaved()
+  let filetype=&ft
+  diffthis
+  vnew | r # | normal! 1Gdd
+  diffthis
+  exe "setlocal bt=nofile bh=wipe nobl noswf ro ft=" . filetype
+endfunction
+com! DiffSaved call s:DiffWithSaved()
 

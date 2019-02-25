@@ -5,6 +5,9 @@ set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.png,*.ico
 set wildignore+=*.pdf,*.psd
 set wildignore+=*/node_modules/*,*/bower_components/*,*/.git/*
 
+"pacman -S editorconfig-core-c
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
 execute pathogen#infect()
 
 " Airline settings
@@ -26,7 +29,11 @@ nmap <leader>9 <Plug>AirlineSelectTab9
 
 filetype on
 syntax on
-colorscheme monokai
+set bg=dark
+"colorscheme monokai
+
+colorscheme lucius
+
 set mouse=n
 set tabstop=4
 set shiftwidth=4
@@ -44,6 +51,11 @@ set undodir=~/.vim/undodir
 set wildmenu
 set path+=**
 "hi MatchParen ctermfg=208 ctermbg=bg
+
+"if filereadable(expand("~/.vimrc_background"))
+"  let base16colorspace=256
+"  source ~/.vimrc_background
+"endif
 
 nmap <Leader>f :Files<CR>
 nmap <Leader>F :GFiles<CR>

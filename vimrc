@@ -34,6 +34,7 @@ set bg=dark
 
 colorscheme lucius
 
+set spell spelllang=en_us
 set mouse=n
 set tabstop=4
 set shiftwidth=4
@@ -41,6 +42,7 @@ set autoindent
 set number "Show line numbers
 set relativenumber " Show line numbers relative to cursor
 set cursorline "Mark the line with the cursor
+set linebreak "Wrap on whole words
 set nolist "hide symbols for unprintable characters
 set hidden "enable switching from unsaved buffer
 set incsearch "search as you type
@@ -82,10 +84,14 @@ endif
 nmap <C-L> :let @/=""<CR>
 
 " Paste, Cut, Copy into system clipboard
-map! <S-Insert> <C-R>+
-nmap <S-Insert> "+P
-vmap <S-Del> "+d
-vmap <C-Insert> "+y
+set clipboard=unnamedplus
+"set clipboard=unnamed
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
 
 function! s:DiffWithSaved()
   let filetype=&ft

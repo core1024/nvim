@@ -34,6 +34,7 @@ set bg=dark
 
 colorscheme lucius
 
+set sessionoptions-=options
 set spell spelllang=en_us
 set mouse=n
 set tabstop=4

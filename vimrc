@@ -8,8 +8,6 @@ set wildignore+=*/node_modules/*,*/bower_components/*,*/.git/*
 "pacman -S editorconfig-core-c
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
-execute pathogen#infect()
-
 " Airline settings
 let g:airline_theme='aurora'
 let g:airline_powerline_fonts = 1

@@ -1,66 +1,66 @@
 [submodule "YouCompleteMe"]
-	path = bundle/YouCompleteMe
+	path = pack/thirdparty/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "ack.vim"]
-	path = bundle/ack.vim
+	path = pack/thirdparty/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "tagbar"]
-	path = bundle/tagbar
+	path = pack/thirdparty/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule "promptline.vim"]
-	path = bundle/promptline.vim
+	path = pack/thirdparty/start/promptline.vim
 	url = https://github.com/edkolev/promptline.vim.git
 [submodule "vim-airline"]
-	path = bundle/vim-airline
+	path = pack/thirdparty/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "vim-airline-themes"]
-	path = bundle/vim-airline-themes
+	path = pack/thirdparty/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
 [submodule "vim-bookmarks"]
-	path = bundle/vim-bookmarks
+	path = pack/thirdparty/start/vim-bookmarks
 	url = https://github.com/MattesGroeger/vim-bookmarks.git
 [submodule "vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/thirdparty/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "vim-pug"]
-	path = bundle/vim-pug
+	path = pack/thirdparty/start/vim-pug
 	url = https://github.com/digitaltoad/vim-pug.git
 [submodule "vim-sleuth"]
-	path = bundle/vim-sleuth
+	path = pack/thirdparty/start/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
 [submodule "vim-startify"]
-	path = bundle/vim-startify
+	path = pack/thirdparty/start/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
 [submodule "vim-stylus"]
-	path = bundle/vim-stylus
+	path = pack/thirdparty/start/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
 [submodule "bundle/fzf"]
-	path = bundle/fzf
+	path = pack/thirdparty/start/fzf
 	url = https://github.com/junegunn/fzf.git
 [submodule "bundle/fzf.vim"]
-	path = bundle/fzf.vim
+	path = pack/thirdparty/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
+	path = pack/thirdparty/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
 [submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+	path = pack/thirdparty/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
+	path = pack/thirdparty/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
+	path = pack/thirdparty/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/editorconfig-vim"]
-	path = bundle/editorconfig-vim
+	path = pack/thirdparty/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/base16-vim"]
-	path = bundle/base16-vim
+	path = pack/thirdparty/start/base16-vim
 	url = https://github.com/chriskempson/base16-vim.git
 [submodule "bundle/vim-easy-align"]
-	path = bundle/vim-easy-align
+	path = pack/thirdparty/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
+	path = pack/thirdparty/start/vim-markdown
 	url = https://github.com/gabrielelana/vim-markdown.git

@@ -28,30 +28,30 @@
 [submodule "vim-stylus"]
 	path = pack/thirdparty/start/vim-stylus
 	url = https://github.com/wavded/vim-stylus.git
-[submodule "bundle/fzf"]
+[submodule "fzf"]
 	path = pack/thirdparty/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "bundle/fzf.vim"]
+[submodule "fzf.vim"]
 	path = pack/thirdparty/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
-[submodule "bundle/vim-easymotion"]
+[submodule "vim-easymotion"]
 	path = pack/thirdparty/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
-[submodule "bundle/vim-surround"]
+[submodule "vim-surround"]
 	path = pack/thirdparty/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-repeat"]
+[submodule "vim-repeat"]
 	path = pack/thirdparty/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "bundle/syntastic"]
+[submodule "syntastic"]
 	path = pack/thirdparty/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule "bundle/editorconfig-vim"]
+[submodule "editorconfig-vim"]
 	path = pack/thirdparty/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "bundle/vim-easy-align"]
+[submodule "vim-easy-align"]
 	path = pack/thirdparty/start/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align.git
-[submodule "bundle/vim-markdown"]
+[submodule "vim-markdown"]
 	path = pack/thirdparty/start/vim-markdown
 	url = https://github.com/gabrielelana/vim-markdown.git

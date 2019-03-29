@@ -3,8 +3,8 @@ set encoding=utf-8
 
 " Plugin settings
 
-if executable('ag')
-	let g:ackprg = 'ag --vimgrep'
+if executable('rg')
+	let g:ackprg = 'rg --vimgrep'
 endif
 
 let g:tagbar_type_markdown = {
@@ -20,12 +20,6 @@ let g:tagbar_type_markdown = {
 
 "pacman -S editorconfig-core-c
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
-
-" Airline settings
-let g:airline_theme='aurora'
-let g:airline_powerline_fonts = 1
-let g:airline_left_sep=''
-let g:airline_right_sep=''
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
@@ -43,7 +37,7 @@ colorscheme lucius
 
 set bg=dark
 set sessionoptions-=options
-set spell spelllang=en_us
+"set spell spelllang=en_us
 set mouse=n
 set tabstop=4
 set shiftwidth=4

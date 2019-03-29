@@ -35,7 +35,7 @@ nmap <Leader>t :TagbarToggle<CR>
 " Vim settings
 colorscheme lucius
 
-set bg=dark
+"set bg=dark
 set sessionoptions-=options
 "set spell spelllang=en_us
 set mouse=n

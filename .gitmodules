@@ -1,6 +1,3 @@
-[submodule "YouCompleteMe"]
-	path = pack/thirdparty/start/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "ack.vim"]
 	path = pack/thirdparty/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
